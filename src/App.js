@@ -80,7 +80,7 @@ function App() {
       </div>
       <div className="container-blog">
         {blogs.map((blog) => {
-          return <Blog key={blog.nameBlog} blog={blog} />
+          return <Blog key={blog.header} blog={blog} />
         })}
       </div>
       <div className="blogHead">
@@ -89,7 +89,7 @@ function App() {
       </div>
       <div className="container-podcast">
         {podCasts.map((podCast) => {
-          return <PodCast key={podCast.nameBlog} podCast={podCast} />
+          return <PodCast key={podCast.header} podCast={podCast} />
         })}
       </div>
       <Footer />

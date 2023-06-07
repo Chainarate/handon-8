@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.container img {
+    height: 30px;
+    width: auto;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div p {
+    margin: 20px;
+}

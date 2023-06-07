@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+}
+
+.blog {
+    width: 100%;
+    height: 100%;
+    padding: 18px 14px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    gap: 16px;
+  }
+  
+.headBlog {
+    display: flex;
+    text-align: left;
+    align-items: left;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+}
